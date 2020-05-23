@@ -50,7 +50,6 @@ background: #FFE3CB;
   text-align: left;
 }
 
-}
 
 .btn-orange {
   display: inline-block;
@@ -67,25 +66,6 @@ background: #FFE3CB;
   opacity: 0.8;
 }
 
-
-.logo {
-  height: 60px;
-  margin: 5px;
-}
-
-.links {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.link {
-  margin: 10px 30px;
-  color: #9F3442;
-}
-
-.link:hover {
-  color: #458D2E;
-}
 
 
 .line-transparent {
@@ -121,20 +101,20 @@ background: #FFE3CB;
 
 .cadre-profil {
   background: #FFE3CB;
-  border: 3px solid #7AA0A7;
+  border: 3px solid #FD8F09;
   margin: 0px 0px 0px 10px;
   padding: 30px 70px;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px grey;
+  box-shadow: 5px 5px 10px #FD8F09;
 }
 
 .cadre-photo {
   background: #FFE3CB;
-  border: 3px solid #7AA0A7;
+  border: 3px solid #FD8F09;
   margin: 0px 10px 0px 0px;
   padding: 30px 70px;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px grey;
+  box-shadow: 5px 5px 10px #FD8F09;
   width: 1000px;
 }
 
@@ -146,6 +126,6 @@ background: #FFE3CB;
 
 .socials {
   font-size: 40px;
-  color: green;
+  color:#FD8F09 ;
 }
 
