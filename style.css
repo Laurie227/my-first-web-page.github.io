@@ -1,23 +1,19 @@
 body {
-  background: #ee9ca7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #7AA0A7; 
   font-family: arial;
   margin: 0px;
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Arial', cursive;
   font-size: 32px;
 }
 
 h2, h3, h4 {
-  font-family: 'Pacifico', cursive;
-  font-size: 28px;
+  font-family: 'Arial', cursive;
+  font-size: 25px;
 }
 
-a, a:hover {
-  text-decoration: none;
 }
 
 p, ul, ol {
@@ -25,20 +21,25 @@ p, ul, ol {
 }
 
 .cadre {
-  background: #E2F3DC;
-  border: 3px solid #C1E6B6;
-  margin: 20px 100px;
-  padding: 30px 70px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 10px grey;
+  background: #FFE3CB;
+  border: 3px;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  box-shadow: 5px 5px 10px #FFE3CB;
 }
 
-.avatar {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 5px 5px 10px grey;
+.color-orange {
+background: #FFE3CB;
+  border: 3px; solide;
+  margin: 10px 80px;
+  padding: 20px 30px;
+  box-shadow: 5px 5px 10px #FFE3CB;
+}
+
+.cadre-titre {
+  background: #FFE3CB;
+}
+
 }
 
 .text-center {
@@ -49,21 +50,19 @@ p, ul, ol {
   text-align: left;
 }
 
-.color-green {
-  color: #458D2E;
 }
 
-.btn-pink {
+.btn-orange {
   display: inline-block;
   color: white;
-  background: #C86472;
+  background: #FD8F09;
   margin: 20px;
   padding: 20px;
   border-radius: 5px;
   font-weight: bold;
 }
 
-.btn-pink:hover {
+.btn-orange :hover {
   color: white;
   opacity: 0.8;
 }
@@ -72,13 +71,6 @@ p, ul, ol {
 .logo {
   height: 60px;
   margin: 5px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #E2F3DC;
 }
 
 .links {
@@ -103,21 +95,21 @@ p, ul, ol {
 }
 
 .line-light {
-  height: 5px;
+  height: 10px;
   width: 20%;
-  background: #EE9CA7;
+  background: #FFE3CB;
 }
 
 .line-medium {
-  height: 5px;
+  height: 10px;
   width: 30%;
-  background: #C86472;
+  background: #FD8F09;
 }
 
 .line-hard {
-  height: 5px;
+  height: 10px;
   width: 50%;
-  background: #9F3442;
+  background: #FB7820;
 }
 
 
@@ -127,18 +119,18 @@ p, ul, ol {
   margin: 20px 100px;
 }
 
-.cadre-preparartion {
-  background: #E2F3DC;
-  border: 3px solid #C1E6B6;
+.cadre-profil {
+  background: #FFE3CB;
+  border: 3px solid #7AA0A7;
   margin: 0px 0px 0px 10px;
   padding: 30px 70px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px grey;
 }
 
-.cadre-ingredients {
-  background: #E2F3DC;
-  border: 3px solid #C1E6B6;
+.cadre-photo {
+  background: #FFE3CB;
+  border: 3px solid #7AA0A7;
   margin: 0px 10px 0px 0px;
   padding: 30px 70px;
   border-radius: 5px;
@@ -147,7 +139,7 @@ p, ul, ol {
 }
 
 .card-img-top {
-  height: 200px;
+  height: 125px;
   width: 100%;
   object-fit: cover;
 }
