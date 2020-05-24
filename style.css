@@ -124,6 +124,12 @@ background: #FFE3CB;
   object-fit: cover;
 }
 
+.card-img-photo{
+  height: 400px;
+  width: 100%;
+  object-fit: cover; 
+}
+
 .socials {
   font-size: 40px;
   color:#FD8F09 ;
